@@ -40,6 +40,6 @@ const solution = (priorities, location) => {
 };
 
 // Array.prototype.some() 을 사용하는 방식도 있음. 
-// some() 메서드는 배열 안의 어떤 요소라도 주어진 판별 함수를 통과하는지 테스트.
+// some() 메서드는 배열 안의 어떤 요소라도 주어진 판별 함수를 통과하는지 테스트. 
 console.log(solution([2, 1, 3, 2], 2));         // 1
 console.log(solution([1, 1, 9, 1, 1, 1], 0));   // 5
